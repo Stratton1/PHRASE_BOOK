@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+~$*.xlsx
+
+# Large reference documents (keep locally, use for AI context)
+USEFUL_DOCS/
+
+# Report PDFs (too large for repo, store separately)
+REPORTS_TO_MINE/*.pdf
+
+# Generated files (keep locally)
+knowledge_bank.json
+
+# Data files (keep local, don't track)
+*.bak
+*.backup
+sample_survey.docx
